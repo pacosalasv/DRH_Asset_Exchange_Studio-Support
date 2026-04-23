@@ -1,12 +1,12 @@
 <div align="center">
-  <img width="680" alt="Add-ons Audit banner" src="https://github.com/user-attachments/assets/f8303114-2a98-44df-bef1-b32736459f28" />
+  <img width="680" alt="Asset Exchange Studio banner" src="REPLACE_WITH_BANNER_URL" />
 </div>
 
 <div align="center">
 
-# Add-ons Audit | Support Hub
+# Asset Exchange Studio | Support Hub
 
-Public technical support for **Add-ons Audit**.
+Public technical support for **Asset Exchange Studio**.
 
 <table>
   <tr>
@@ -23,7 +23,7 @@ Public technical support for **Add-ons Audit**.
 
 <div align="center">
 
-This repository is the central public support hub for **Add-ons Audit** while development continues.
+This repository is the central public support hub for **Asset Exchange Studio** while development continues.
 
 </div>
 
@@ -31,11 +31,11 @@ This repository is the central public support hub for **Add-ons Audit** while de
 
 ## Quick links
 
-- [Ask a question in Discussions](https://github.com/pacosalasv/DRH_Addons_Audit-Support/discussions)
-- [Open a new issue](https://github.com/pacosalasv/DRH_Addons_Audit-Support/issues/new/choose)
-- [Report a bug](https://github.com/pacosalasv/DRH_Addons_Audit-Support/issues/new?template=bug_report.yml)
-- [Request a feature](https://github.com/pacosalasv/DRH_Addons_Audit-Support/issues/new?template=feature_request.yml)
-- [Report a compatibility issue](https://github.com/pacosalasv/DRH_Addons_Audit-Support/issues/new?template=compatibility_issue.yml)
+- [Ask a question in Discussions](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support/discussions)
+- [Open a new issue](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support/issues/new/choose)
+- [Report a bug](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support/issues/new?template=bug_report.yml)
+- [Request a feature](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support/issues/new?template=feature_request.yml)
+- [Report a compatibility issue](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support/issues/new?template=compatibility_issue.yml)
 
 ## Use Discussions for
 
@@ -56,11 +56,8 @@ This repository is the central public support hub for **Add-ons Audit** while de
 
 ## Supported scope
 
-- **Add-on:** Add-ons Audit
-- **Status:** In Development
-- **Current version:** 1.0.0
+- **Add-on:** Asset Exchange Studio
 - **Minimum Blender version:** 4.2.0
-- **Platforms:** Windows, macOS, Linux
 
 ## Before you post
 
@@ -81,16 +78,9 @@ This repository is a public support hub. Do not post private account details, li
 
 ## Notes
 
-This add-on is source based, with no obfuscation, no binary-only content, and no external services.
+This add-on is source-based, with no obfuscation, no binary-only content, and no external services.
 
-File access is used to:
-
-- Scan installations
-- Read manifests
-- Compare snapshots
-- Export reports
-- Create installable packages
-- Import or export setup profiles
+Update this section if import, export, asset transfer, local file handling, or path-based workflows are part of the add-on behavior.
 
 ## Where to post
 
