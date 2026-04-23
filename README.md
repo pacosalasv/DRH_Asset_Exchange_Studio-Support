@@ -1,12 +1,12 @@
 <div align="center">
-  <img width="680" alt="Asset Exchange Studio banner" src="REPLACE_WITH_BANNER_URL" />
+  <img width="680" alt="DRH - Asset Exchange Studio banner" src="https://github.com/user-attachments/assets/5c7dd7bd-0a9d-4574-b958-0349e73fbcba" />
 </div>
 
 <div align="center">
 
-# Asset Exchange Studio | Support Hub
+# DRH - Asset Exchange Studio | Support Hub
 
-Public technical support for **Asset Exchange Studio**.
+Public technical support for **DRH - Asset Exchange Studio**.
 
 <table>
   <tr>
@@ -23,7 +23,7 @@ Public technical support for **Asset Exchange Studio**.
 
 <div align="center">
 
-This repository is the central public support hub for **Asset Exchange Studio** while development continues.
+This repository is the central public support hub for **DRH - Asset Exchange Studio** while development continues.
 
 </div>
 
@@ -56,7 +56,7 @@ This repository is the central public support hub for **Asset Exchange Studio** 
 
 ## Supported scope
 
-- **Add-on:** Asset Exchange Studio
+- **Add-on:** DRH - Asset Exchange Studio
 - **Minimum Blender version:** 4.2.0
 
 ## Before you post
