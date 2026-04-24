@@ -2,66 +2,459 @@
   <img width="680" alt="DRH - Asset Exchange Studio banner" src="https://github.com/user-attachments/assets/5c7dd7bd-0a9d-4574-b958-0349e73fbcba" />
 </div>
 
+<br>
+
 <div align="center">
 
-# DRH - Asset Exchange Studio | Support Hub
+# DRH - Asset Exchange Studio
 
-Public technical support for **DRH - Asset Exchange Studio**.
+### Public Support Hub · Documentation · Feedback · Pre-release Validation
 
-<table>
-  <tr>
-    <td align="center"><strong>Status</strong><br>🟣 <strong>In Development</strong></td>
-    <td align="center"><strong>Version</strong><br><code>1.0.0</code></td>
-    <td align="center"><strong>Blender</strong><br><code>4.2+</code></td>
-    <td align="center"><strong>Platforms</strong><br>Windows, macOS, Linux</td>
-  </tr>
-</table>
+**A Blender utility for importing, exporting, validating, previewing, and batch-processing multi-format 3D assets.**
+
+![Status](https://img.shields.io/badge/status-in%20development-1E5BFF?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.0.0-00B7FF?style=for-the-badge)
+![Blender](https://img.shields.io/badge/blender-4.2%2B-0B1F4D?style=for-the-badge)
+![Platforms](https://img.shields.io/badge/platforms-Windows%20x64-EAF2FF?style=for-the-badge&labelColor=0B1F4D&color=EAF2FF)
+
+<br>
+
+**Part of the DRH Add-ons ecosystem — Blender tools, updates, and releases.**
+
+[![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add--ons%20Hub-Visit%20Hub-1E5BFF?style=for-the-badge&labelColor=0B1F4D)](https://github.com/pacosalasv/DRH_Addons_Hub)
 
 </div>
+
+<!--
+<div align="center">
+
+[![Superhive](https://img.shields.io/badge/Superhive-Coming%20Soon-1E5BFF?style=for-the-badge)](#)
+[![Gumroad](https://img.shields.io/badge/Gumroad-Coming%20Soon-00B7FF?style=for-the-badge)](#)
+[![BlenderKit](https://img.shields.io/badge/BlenderKit-Coming%20Soon-0B1F4D?style=for-the-badge)](#)
+
+</div>
+-->
 
 ---
 
 <div align="center">
 
-This repository is the central public support hub for **DRH - Asset Exchange Studio** while development continues.
+**DRH - Asset Exchange Studio** helps Blender users import, export, validate, inspect, preview, and batch-process 3D assets across supported file formats and production workflows.
+
+This repository is the central public hub for support, documentation, issue tracking, compatibility feedback, and community validation before marketplace release.
 
 </div>
+
+---
+
+<details>
+  <summary><strong>📚 Table of Contents</strong></summary>
+
+## Menu
+
+- [Overview](#overview)
+- [Media preview](#media-preview)
+- [What DRH - Asset Exchange Studio does](#what-drh---asset-exchange-studio-does)
+- [Supported formats](#supported-formats)
+- [Key features](#key-features)
+- [Full feature list](#full-feature-list)
+- [Who is it for?](#who-is-it-for)
+- [Current status](#current-status)
+- [Feedback wanted before release](#feedback-wanted-before-release)
+- [Quick links](#quick-links)
+- [Before you post](#before-you-post)
+- [Where to post](#where-to-post)
+- [Support policy](#support-policy)
+- [Technical notes](#technical-notes)
+- [Availability](#availability)
+- [Documentation](#documentation)
+- [License](#license)
+
+</details>
+
+---
+
+## Overview
+
+**DRH - Asset Exchange Studio** is a Blender workflow utility designed to help users import, export, validate, inspect, preview, and batch-process 3D assets across multiple production formats.
+
+It is intended for technical artists, asset creators, game artists, pipeline-focused users, BlenderKit creators, and teams that need cleaner asset exchange, local file handling, batch processing, format-based workflows, or repeatable import/export preparation.
+
+Instead of managing asset transfers manually across folders, formats, naming conventions, validation steps, and delivery requirements, DRH - Asset Exchange Studio helps make asset exchange more organized, traceable, and production-friendly.
+
+<!--
+
+---
+
+## Media preview
+
+### Demo video
+
+Replace `YOUTUBE_VIDEO_ID` with your real YouTube video ID.
+
+Example:
+https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID" target="_blank">
+    <img width="720" alt="DRH - Asset Exchange Studio demo video" src="https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/maxresdefault.jpg" />
+  </a>
+  <br>
+  <sub>Click the image to watch the demo on YouTube.</sub>
+</div>
+-->
+
+<!--
+### Quick demo GIF
+
+Recommended size: 1280x720 or 960x540.
+
+<div align="center">
+  <img width="720" alt="DRH - Asset Exchange Studio quick demo" src="docs/media/asset-exchange-studio-demo.gif" />
+</div>
+-->
+
+<!--
+### Screenshots
+
+<div align="center">
+
+| Export Formats | Import Formats |
+|---|---|
+| <img width="420" alt="DRH - Asset Exchange Studio export formats" src="docs/media/screenshot-export-formats.png" /> | <img width="420" alt="DRH - Asset Exchange Studio import formats" src="docs/media/screenshot-import-formats.png" /> |
+
+| Format Options | Validation Report |
+|---|---|
+| <img width="420" alt="DRH - Asset Exchange Studio format options" src="docs/media/screenshot-format-options.png" /> | <img width="420" alt="DRH - Asset Exchange Studio validation report" src="docs/media/screenshot-validation.png" /> |
+
+</div>
+-->
+
+<!--
+### Visual preview
+
+Use this section if you want one large image instead of a gallery.
+
+<div align="center">
+  <img width="760" alt="DRH - Asset Exchange Studio preview" src="docs/media/asset-exchange-studio-preview.png" />
+</div>
+-->
+
+<!--
+Temporary placeholder while media is not available.
+
+<div align="center">
+
+Media preview coming soon.
+
+</div>
+-->
+
+---
+
+## What DRH - Asset Exchange Studio does
+
+DRH - Asset Exchange Studio helps you prepare, validate, import, export, preview, inspect, and batch-process asset data across supported formats inside Blender.
+
+It is not only a simple import/export shortcut. It is designed as a workflow helper for format-based asset exchange, asset handoff, file preparation, local organization, validation steps, inspection, previews, and repeatable production-oriented transfer processes.
+
+Use it to:
+
+- Import assets using supported file formats
+- Export assets using supported file formats
+- Prepare assets for cross-format workflows
+- Validate assets before handoff or packaging
+- Preview and inspect asset data during exchange workflows
+- Organize local file and path-based asset workflows
+- Batch-process multiple assets when applicable
+- Use pipeline presets for common delivery workflows
+- Reduce repetitive manual import/export preparation
+- Support more consistent asset transfer between tools or environments
+- Improve pipeline clarity for asset creators and technical users
+
+---
+
+## Supported formats
+
+DRH - Asset Exchange Studio is built around format-based asset exchange workflows.
+
+The formats below are grouped by workflow type to make import/export support easier to scan before release.
+
+---
+
+### Export formats
+
+#### Core 3D formats
+
+![FBX](https://img.shields.io/badge/FBX-.fbx-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![OBJ](https://img.shields.io/badge/OBJ-.obj-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![glTF / GLB](https://img.shields.io/badge/glTF%20%2F%20GLB-.gltf%20%7C%20.glb-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![STL](https://img.shields.io/badge/STL-.stl-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![PLY](https://img.shields.io/badge/PLY-.ply-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+
+#### Scene and pipeline formats
+
+![USD / USDZ](https://img.shields.io/badge/USD%20%2F%20USDZ-.usd%20%7C%20.usdz-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![Collada](https://img.shields.io/badge/Collada-.dae-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![Alembic](https://img.shields.io/badge/Alembic-.abc-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+
+#### CAD, vector, motion, and data formats
+
+![AutoCAD DXF](https://img.shields.io/badge/AutoCAD%20DXF-.dxf-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![3MF](https://img.shields.io/badge/3MF-.3mf-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![SVG](https://img.shields.io/badge/SVG-.svg-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![BVH](https://img.shields.io/badge/BVH-.bvh-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![X3D](https://img.shields.io/badge/X3D-.x3d-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![OFF](https://img.shields.io/badge/OFF-.off-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![XYZ](https://img.shields.io/badge/XYZ-.xyz-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+
+---
+
+### Import formats
+
+#### Core 3D formats
+
+![FBX](https://img.shields.io/badge/FBX-.fbx-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![Blender Library](https://img.shields.io/badge/Blender%20Library-.blend-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![OBJ](https://img.shields.io/badge/OBJ-.obj-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![glTF / GLB](https://img.shields.io/badge/glTF%20%2F%20GLB-.gltf%20%7C%20.glb-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![STL](https://img.shields.io/badge/STL-.stl-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![PLY](https://img.shields.io/badge/PLY-.ply-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+
+#### Scene and pipeline formats
+
+![USD / USDZ](https://img.shields.io/badge/USD%20%2F%20USDZ-.usd%20%7C%20.usdz-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![Collada](https://img.shields.io/badge/Collada-.dae-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![Alembic](https://img.shields.io/badge/Alembic-.abc-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+
+#### CAD, architecture, and DCC formats
+
+![Autodesk MAX](https://img.shields.io/badge/Autodesk%20MAX-.max-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![Autodesk 3DS](https://img.shields.io/badge/Autodesk%203DS-.3ds-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![AutoCAD DXF](https://img.shields.io/badge/AutoCAD%20DXF-.dxf-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![SketchUp](https://img.shields.io/badge/SketchUp-.skp-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![Rhinoceros 3DM](https://img.shields.io/badge/Rhinoceros%203DM-.3dm-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![3DXML](https://img.shields.io/badge/3DXML-.3dxml-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+
+#### Game, voxel, motion, volume, and data formats
+
+![Unreal PSK](https://img.shields.io/badge/Unreal%20PSK-.psk%20%7C%20.pskx-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![Unreal PSA](https://img.shields.io/badge/Unreal%20PSA-.psa-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![OpenVDB](https://img.shields.io/badge/OpenVDB-.vdb-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![MagicaVoxel VOX](https://img.shields.io/badge/MagicaVoxel%20VOX-.vox-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![BVH](https://img.shields.io/badge/BVH-.bvh-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![SVG](https://img.shields.io/badge/SVG-.svg-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![X3D](https://img.shields.io/badge/X3D-.x3d-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![OFF](https://img.shields.io/badge/OFF-.off-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![XYZ](https://img.shields.io/badge/XYZ-.xyz-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+
+---
+
+### Format support notes
+
+- Export and import format availability may depend on Blender version, installed dependencies, operating system, or format-specific requirements.
+- Some formats may support import only, export only, or different levels of feature support.
+- Format-specific behavior should be tested with real production files before marketplace release.
+- Pipeline presets may enable different format combinations depending on the selected delivery workflow.
+
+---
+
+## Key features
+
+- Multi-format asset import and export workflow
+- Format selection for export delivery
+- Import filtering for supported formats
+- Pipeline presets for common delivery scenarios
+- Output directory and source directory workflows
+- Batch-oriented asset exchange preparation
+- Asset validation before transfer or delivery
+- Local file and path-based workflow support
+- Cleaner handoff for marketplaces, asset libraries, teams, and external tools
+- Production-friendly organization for repeated asset exchange tasks
+
+---
+
+<details>
+  <summary><strong>🧩 Full feature list</strong></summary>
+
+## Full feature list
+
+### Multi-format exchange
+
+- Work with multiple import and export formats from one dedicated panel
+- Separate import and export workflows for clearer asset handling
+- Use format-specific workflows depending on the target delivery or source files
+- Support production scenarios where assets move between Blender and external tools
+- Reduce the need to manually manage format handling across different menus
+
+### Export workflow
+
+- Choose an output directory for exported assets
+- Enable or disable export formats depending on delivery needs
+- Use pipeline presets for common export scenarios
+- Prepare assets for external tools, marketplaces, clients, or asset libraries
+- Help standardize outgoing asset delivery workflows
+
+### Import workflow
+
+- Choose a source directory for incoming assets
+- Filter files by supported formats
+- Include subfolders when needed
+- Bring external assets into Blender workflows more consistently
+- Reduce manual setup when working with assets from different sources
+
+### Pipeline presets
+
+- Use predefined pipeline presets for common asset delivery workflows
+- Apply format selections based on workflow needs
+- Support faster setup for repeated export configurations
+- Help standardize delivery preparation
+- Reduce the need to manually select the same formats repeatedly
+
+### Asset validation
+
+- Validate asset data before transfer, delivery, or packaging
+- Help detect issues before assets move to another workflow
+- Support quality checks for production-oriented asset handling
+- Reduce avoidable errors during asset exchange
+- Help users prepare more reliable asset deliveries
+
+### Asset inspection and preview
+
+- Inspect asset-related data before or during exchange workflows
+- Preview asset exchange information when applicable
+- Help users review what is being imported, exported, validated, or processed
+- Support clearer decision-making before committing to asset transfer
+- Reduce uncertainty during format-based workflows
+
+### Batch-oriented workflows
+
+- Support repeated import/export preparation tasks
+- Help reduce repetitive manual actions
+- Support workflows involving multiple assets or multiple delivery formats
+- Make recurring asset preparation steps more consistent
+- Support production-style asset organization and delivery
+
+### Local file handling
+
+- Support local file and path-based workflows
+- Help manage asset-related files more clearly
+- Support workflows that depend on local folders, project paths, and asset locations
+- Help reduce confusion around where asset data is stored or exported
+- Keep asset exchange work local inside the user’s Blender environment
+
+### Marketplace and asset library preparation
+
+- Help prepare assets for marketplace-style workflows
+- Support asset library organization
+- Assist users creating reusable assets, packs, or deliverables
+- Help improve consistency before assets are published, transferred, or archived
+- Support BlenderKit-style asset preparation workflows
+
+### Transparency
+
+- Source-based add-on
+- No obfuscation
+- No external services required
+- No account requirements
+- Local file access may be used for import, export, validation, asset transfer, reports, and path-based workflows
+
+</details>
+
+---
+
+## Who is it for?
+
+DRH - Asset Exchange Studio is designed for:
+
+- Technical artists
+- Blender asset creators
+- Game artists
+- Pipeline-focused users
+- Environment artists
+- Marketplace asset creators
+- BlenderKit creators
+- Small teams and solo creators
+- Users managing repeated import/export tasks
+- Users preparing asset packs, libraries, or deliverables
+- Users working with format-based asset exchange
+- Users who need cleaner asset transfer, validation, inspection, and handoff workflows
+
+---
+
+## Current status
+
+| Item | Details |
+|---|---|
+| **Status** | 🟣 In Development |
+| **Current version** | 1.0.0 |
+| **Minimum Blender version** | 4.2.0 |
+| **Platforms** | Windows x64 |
+| **Release type** | In development before public marketplace release |
+| **Support repository** | [DRH Asset Exchange Studio Support](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support) |
+
+This add-on is currently in development. Compatibility feedback, usability comments, feature expectations, and workflow suggestions are welcome before public release.
+
+---
+
+## Feedback wanted before release
+
+This repository is open for public feedback before marketplace release.
+
+Feedback is especially welcome on:
+
+- Feature usefulness
+- Supported import formats
+- Supported export formats
+- Format-specific workflow expectations
+- Format validation requirements
+- Import workflow expectations
+- Export workflow expectations
+- Batch-processing workflow needs
+- Asset validation needs
+- Local file handling expectations
+- Path-based workflow requirements
+- Pipeline preset ideas
+- Marketplace or asset library preparation needs
+- Pipeline and handoff requirements
+- Compatibility concerns
+- Installation experience
+- Documentation clarity
+- Expected pricing
+- Marketplace expectations
+
+Useful feedback examples:
+
+> “I need `.fbx`, `.obj`, and `.glb` export for game-ready assets.”
+
+> “I need `.3dm`, `.skp`, and `.3ds` import for architecture-related workflows.”
+
+> “This should validate missing textures before export.”
+
+> “I need batch export options for multiple assets and formats.”
+
+> “This would be useful if it helps organize marketplace-ready asset packages.”
+
+> “The workflow should clearly show which formats are supported for import and export.”
+
+> “Format-specific presets would make this more useful for game engines and asset stores.”
 
 ---
 
 ## Quick links
 
+- [Support repository](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support)
 - [Ask a question in Discussions](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support/discussions)
 - [Open a new issue](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support/issues/new/choose)
 - [Report a bug](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support/issues/new?template=bug_report.yml)
 - [Request a feature](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support/issues/new?template=feature_request.yml)
 - [Report a compatibility issue](https://github.com/pacosalasv/DRH_Asset_Exchange_Studio-Support/issues/new?template=compatibility_issue.yml)
 
-## Use Discussions for
-
-- Questions
-- How-to topics
-- Installation help
-- Compatibility checks
-- FAQ
-- Suggestions
-
-## Use Issues for
-
-- Confirmed bugs
-- Reproducible compatibility problems
-- Feature requests
-- Regressions
-- Marketplace or listing-related problems
-
-## Supported scope
-
-- **Add-on:** DRH - Asset Exchange Studio
-- **Minimum Blender version:** 4.2.0
+---
 
 ## Before you post
 
-Please include:
+Please include as much of the following information as possible:
 
 - Add-on version
 - Blender version
@@ -72,32 +465,158 @@ Please include:
 - Actual result
 - Error message, screenshot, or console output when available
 
-## Support policy
+For compatibility issues, please also include:
 
-This repository is a public support hub. Do not post private account details, license keys, payment information, or confidential files.
+- Blender build type, if known
+- Portable or installed Blender version
+- Whether the issue happens with a clean Blender configuration
+- Asset type or format involved, if relevant
+- Import or export direction
+- Import format used
+- Export format used
+- Local path structure, when safe to share
+- Whether the issue involves file access, validation, missing files, asset transfer, format conversion, batch-processing, or path handling
 
-## Notes
+---
 
-This add-on is source-based, with no obfuscation, no binary-only content, and no external services.
+## Use Discussions for
 
-Update this section if import, export, asset transfer, local file handling, or path-based workflows are part of the add-on behavior.
+- Questions
+- How-to topics
+- Installation help
+- Compatibility checks
+- FAQ
+- Suggestions
+- Pre-release feedback
+- Pricing feedback
+- Workflow ideas
+- Format support requests
+- Pipeline use-case discussions
+
+---
+
+## Use Issues for
+
+- Confirmed bugs
+- Reproducible compatibility problems
+- Format-specific import/export problems
+- Feature requests
+- Regressions
+- Marketplace or listing-related problems
+- Documentation errors
+
+---
 
 ## Where to post
 
-- Open a **Discussion** for questions, setup help, workflow advice, and suggestions
-- Open an **Issue** for confirmed bugs, reproducible compatibility problems, regressions, and feature requests
+Open a **Discussion** for:
+
+- General questions
+- Setup help
+- Workflow advice
+- Suggestions
+- Early feedback
+- Format support requests
+- Pipeline workflow ideas
+
+Open an **Issue** for:
+
+- Confirmed bugs
+- Reproducible compatibility problems
+- Import/export failures
+- Format-specific problems
+- Regressions
+- Feature requests
+- Documentation problems
+
+---
+
+## Support policy
+
+This repository is a public support hub.
+
+Do not post:
+
+- Private account details
+- License keys
+- Payment information
+- Confidential production files
+- Private client files
+- Sensitive system information
+
+If a private file is required to reproduce an issue, please describe the problem first and wait for further instructions.
+
+---
+
+## Technical notes
+
+This add-on is source based, with:
+
+- No obfuscation
+- No external services
+- No account requirements
+
+Local file access may be used for:
+
+- Import workflows
+- Export workflows
+- Format-based asset exchange
+- Asset transfer
+- Asset validation
+- Asset inspection
+- Local validation reports
+- Local file handling
+- Path-based workflows
+- Asset package preparation
+- Project or asset folder selection
+- Batch-processing workflows
+
+The add-on is intended to work locally inside Blender.
+
+Current package notes:
+
+- Minimum Blender version: 4.2.0
+- Platform currently indicated in package metadata: Windows x64
+- Format support may depend on Blender version, available import/export operators, bundled dependencies, and operating system support
+
+---
 
 ## Availability
 
-This add-on may be available through multiple marketplaces and storefronts.
+This add-on may be available through multiple marketplaces and storefronts after release.
 
-For support, documentation, and issue tracking, use this GitHub repository as the central public support hub.
+This GitHub repository remains the central public location for:
+
+- Support
+- Documentation
+- Issue tracking
+- Compatibility reports
+- Public feedback
+- Release notes
+
+---
 
 ## Documentation
 
 - [User Manual](docs/manual/user-manual.pdf)
 - [Changelog](CHANGELOG.md)
 
+---
+
 ## License
 
 This repository is distributed under **GPL-3.0-or-later**.
+
+---
+
+<div align="center">
+
+### DRH Add-ons
+
+**Blender tools, updates, and releases.**
+
+Built for clean workflows, practical utilities, and production-friendly Blender setups.
+
+[![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add--ons%20Hub-Visit%20Hub-1E5BFF?style=for-the-badge&labelColor=0B1F4D)](https://github.com/pacosalasv/DRH_Addons_Hub)
+
+</div>
