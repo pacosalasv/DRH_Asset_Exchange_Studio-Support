@@ -12,7 +12,7 @@
 
 **A Blender utility for importing, exporting, validating, previewing, and batch-processing multi-format 3D assets.**
 
-![Status](https://img.shields.io/badge/status-in%20development-1E5BFF?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-in%20development-7C3AED?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.0.0-00B7FF?style=for-the-badge)
 ![Blender](https://img.shields.io/badge/blender-4.2%2B-0B1F4D?style=for-the-badge)
 ![Platforms](https://img.shields.io/badge/platforms-Windows%20x64-EAF2FF?style=for-the-badge&labelColor=0B1F4D&color=EAF2FF)
@@ -188,25 +188,25 @@ The formats below are grouped by workflow type to make import/export support eas
 
 ![FBX](https://img.shields.io/badge/FBX-.fbx-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
 ![OBJ](https://img.shields.io/badge/OBJ-.obj-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![glTF / GLB](https://img.shields.io/badge/glTF%20%2F%20GLB-.gltf%20%7C%20.glb-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![glTF / GLB](https://img.shields.io/badge/glTF%20%2F%20GLB-.gltf%20%7C%20.glb-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
 ![STL](https://img.shields.io/badge/STL-.stl-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
 ![PLY](https://img.shields.io/badge/PLY-.ply-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
 
 #### Scene and pipeline formats
 
 ![USD / USDZ](https://img.shields.io/badge/USD%20%2F%20USDZ-.usd%20%7C%20.usdz-00B7FF?style=for-the-badge&labelColor=0B1F4D)
-![Collada](https://img.shields.io/badge/Collada-.dae-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![Alembic](https://img.shields.io/badge/Alembic-.abc-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![Collada](https://img.shields.io/badge/Collada-.dae-00B7FF?style=for-the-badge&labelColor=0B1F4D)
+![Alembic](https://img.shields.io/badge/Alembic-.abc-00B7FF?style=for-the-badge&labelColor=0B1F4D)
 
 #### CAD, vector, motion, and data formats
 
-![AutoCAD DXF](https://img.shields.io/badge/AutoCAD%20DXF-.dxf-00B7FF?style=for-the-badge&labelColor=0B1F4D)
-![3MF](https://img.shields.io/badge/3MF-.3mf-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![SVG](https://img.shields.io/badge/SVG-.svg-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![BVH](https://img.shields.io/badge/BVH-.bvh-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![X3D](https://img.shields.io/badge/X3D-.x3d-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![OFF](https://img.shields.io/badge/OFF-.off-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![XYZ](https://img.shields.io/badge/XYZ-.xyz-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![AutoCAD DXF](https://img.shields.io/badge/AutoCAD%20DXF-.dxf-7C3AED?style=for-the-badge&labelColor=0B1F4D)
+![3MF](https://img.shields.io/badge/3MF-.3mf-7C3AED?style=for-the-badge&labelColor=0B1F4D)
+![SVG](https://img.shields.io/badge/SVG-.svg-7C3AED?style=for-the-badge&labelColor=0B1F4D)
+![BVH](https://img.shields.io/badge/BVH-.bvh-7C3AED?style=for-the-badge&labelColor=0B1F4D)
+![X3D](https://img.shields.io/badge/X3D-.x3d-7C3AED?style=for-the-badge&labelColor=0B1F4D)
+![OFF](https://img.shields.io/badge/OFF-.off-7C3AED?style=for-the-badge&labelColor=0B1F4D)
+![XYZ](https://img.shields.io/badge/XYZ-.xyz-7C3AED?style=for-the-badge&labelColor=0B1F4D)
 
 ---
 
@@ -214,39 +214,39 @@ The formats below are grouped by workflow type to make import/export support eas
 
 #### Core 3D formats
 
-![FBX](https://img.shields.io/badge/FBX-.fbx-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![Blender Library](https://img.shields.io/badge/Blender%20Library-.blend-00B7FF?style=for-the-badge&labelColor=0B1F4D)
-![OBJ](https://img.shields.io/badge/OBJ-.obj-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![glTF / GLB](https://img.shields.io/badge/glTF%20%2F%20GLB-.gltf%20%7C%20.glb-00B7FF?style=for-the-badge&labelColor=0B1F4D)
-![STL](https://img.shields.io/badge/STL-.stl-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![PLY](https://img.shields.io/badge/PLY-.ply-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![FBX](https://img.shields.io/badge/FBX-.fbx-2563EB?style=for-the-badge&labelColor=0B1F4D)
+![Blender Library](https://img.shields.io/badge/Blender%20Library-.blend-2563EB?style=for-the-badge&labelColor=0B1F4D)
+![OBJ](https://img.shields.io/badge/OBJ-.obj-2563EB?style=for-the-badge&labelColor=0B1F4D)
+![glTF / GLB](https://img.shields.io/badge/glTF%20%2F%20GLB-.gltf%20%7C%20.glb-2563EB?style=for-the-badge&labelColor=0B1F4D)
+![STL](https://img.shields.io/badge/STL-.stl-2563EB?style=for-the-badge&labelColor=0B1F4D)
+![PLY](https://img.shields.io/badge/PLY-.ply-2563EB?style=for-the-badge&labelColor=0B1F4D)
 
 #### Scene and pipeline formats
 
-![USD / USDZ](https://img.shields.io/badge/USD%20%2F%20USDZ-.usd%20%7C%20.usdz-00B7FF?style=for-the-badge&labelColor=0B1F4D)
-![Collada](https://img.shields.io/badge/Collada-.dae-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![Alembic](https://img.shields.io/badge/Alembic-.abc-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![USD / USDZ](https://img.shields.io/badge/USD%20%2F%20USDZ-.usd%20%7C%20.usdz-0891B2?style=for-the-badge&labelColor=0B1F4D)
+![Collada](https://img.shields.io/badge/Collada-.dae-0891B2?style=for-the-badge&labelColor=0B1F4D)
+![Alembic](https://img.shields.io/badge/Alembic-.abc-0891B2?style=for-the-badge&labelColor=0B1F4D)
 
 #### CAD, architecture, and DCC formats
 
-![Autodesk MAX](https://img.shields.io/badge/Autodesk%20MAX-.max-00B7FF?style=for-the-badge&labelColor=0B1F4D)
-![Autodesk 3DS](https://img.shields.io/badge/Autodesk%203DS-.3ds-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![AutoCAD DXF](https://img.shields.io/badge/AutoCAD%20DXF-.dxf-00B7FF?style=for-the-badge&labelColor=0B1F4D)
-![SketchUp](https://img.shields.io/badge/SketchUp-.skp-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![Rhinoceros 3DM](https://img.shields.io/badge/Rhinoceros%203DM-.3dm-00B7FF?style=for-the-badge&labelColor=0B1F4D)
-![3DXML](https://img.shields.io/badge/3DXML-.3dxml-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![Autodesk MAX](https://img.shields.io/badge/Autodesk%20MAX-.max-9333EA?style=for-the-badge&labelColor=0B1F4D)
+![Autodesk 3DS](https://img.shields.io/badge/Autodesk%203DS-.3ds-9333EA?style=for-the-badge&labelColor=0B1F4D)
+![AutoCAD DXF](https://img.shields.io/badge/AutoCAD%20DXF-.dxf-9333EA?style=for-the-badge&labelColor=0B1F4D)
+![SketchUp](https://img.shields.io/badge/SketchUp-.skp-9333EA?style=for-the-badge&labelColor=0B1F4D)
+![Rhinoceros 3DM](https://img.shields.io/badge/Rhinoceros%203DM-.3dm-9333EA?style=for-the-badge&labelColor=0B1F4D)
+![3DXML](https://img.shields.io/badge/3DXML-.3dxml-9333EA?style=for-the-badge&labelColor=0B1F4D)
 
 #### Game, voxel, motion, volume, and data formats
 
-![Unreal PSK](https://img.shields.io/badge/Unreal%20PSK-.psk%20%7C%20.pskx-00B7FF?style=for-the-badge&labelColor=0B1F4D)
-![Unreal PSA](https://img.shields.io/badge/Unreal%20PSA-.psa-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![OpenVDB](https://img.shields.io/badge/OpenVDB-.vdb-00B7FF?style=for-the-badge&labelColor=0B1F4D)
-![MagicaVoxel VOX](https://img.shields.io/badge/MagicaVoxel%20VOX-.vox-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![BVH](https://img.shields.io/badge/BVH-.bvh-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![SVG](https://img.shields.io/badge/SVG-.svg-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![X3D](https://img.shields.io/badge/X3D-.x3d-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![OFF](https://img.shields.io/badge/OFF-.off-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
-![XYZ](https://img.shields.io/badge/XYZ-.xyz-1E5BFF?style=for-the-badge&labelColor=0B1F4D)
+![Unreal PSK](https://img.shields.io/badge/Unreal%20PSK-.psk%20%7C%20.pskx-14B8A6?style=for-the-badge&labelColor=0B1F4D)
+![Unreal PSA](https://img.shields.io/badge/Unreal%20PSA-.psa-14B8A6?style=for-the-badge&labelColor=0B1F4D)
+![OpenVDB](https://img.shields.io/badge/OpenVDB-.vdb-14B8A6?style=for-the-badge&labelColor=0B1F4D)
+![MagicaVoxel VOX](https://img.shields.io/badge/MagicaVoxel%20VOX-.vox-14B8A6?style=for-the-badge&labelColor=0B1F4D)
+![BVH](https://img.shields.io/badge/BVH-.bvh-14B8A6?style=for-the-badge&labelColor=0B1F4D)
+![SVG](https://img.shields.io/badge/SVG-.svg-14B8A6?style=for-the-badge&labelColor=0B1F4D)
+![X3D](https://img.shields.io/badge/X3D-.x3d-14B8A6?style=for-the-badge&labelColor=0B1F4D)
+![OFF](https://img.shields.io/badge/OFF-.off-14B8A6?style=for-the-badge&labelColor=0B1F4D)
+![XYZ](https://img.shields.io/badge/XYZ-.xyz-14B8A6?style=for-the-badge&labelColor=0B1F4D)
 
 ---
 
