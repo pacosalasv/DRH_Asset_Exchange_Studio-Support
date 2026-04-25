@@ -136,16 +136,13 @@ Recommended size: 1280x720 or 960x540.
 
 <div align="center">
 
-| Import Formats and File Queue | HTML Export QA Report
- |
+| Import Formats and File Queue | HTML Export QA Report |
 |---|---|
 | <img height="420" alt="Import Formats and File Queue" src="docs/media/ScreenShot_03.png" /> | <img height="420" alt="HTML Export QA Report" src="docs/media/ScreenShot_04.png" /> |
 
 </div>
 
 </details>
-  
--->
 
 <!--
 ### Visual preview
