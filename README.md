@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="680" alt="DRH - Asset Exchange Studio banner" src="https://github.com/user-attachments/assets/5c7dd7bd-0a9d-4574-b958-0349e73fbcba" />
+  <img width="680" alt="DRH - Asset Exchange Studio banner" src="docs/media/Logo.png" />
 </div>
 
 <br>
@@ -82,11 +82,17 @@ It is intended for technical artists, asset creators, game artists, pipeline-foc
 
 Instead of managing asset transfers manually across folders, formats, naming conventions, validation steps, and delivery requirements, DRH - Asset Exchange Studio helps make asset exchange more organized, traceable, and production-friendly.
 
+## Media preview
+
+<!--
+<div align="center">
+  <img width="920" alt="DRH - Color Ramp Studio feature preview showing palette generation, native editable conversion, curated presets, and precision editing tools" src="docs/media/Featured_Image.png" />
+</div>
+-->
+
 <!--
 
 ---
-
-## Media preview
 
 ### Demo video
 
@@ -114,20 +120,29 @@ Recommended size: 1280x720 or 960x540.
 </div>
 -->
 
-<!--
-### Screenshots
+### Early Screenshots
 
 <div align="center">
 
-| Export Formats | Import Formats |
+| Export Formats and Presets | Export Sanity Checker and Reports |
 |---|---|
-| <img width="420" alt="DRH - Asset Exchange Studio export formats" src="docs/media/screenshot-export-formats.png" /> | <img width="420" alt="DRH - Asset Exchange Studio import formats" src="docs/media/screenshot-import-formats.png" /> |
-
-| Format Options | Validation Report |
-|---|---|
-| <img width="420" alt="DRH - Asset Exchange Studio format options" src="docs/media/screenshot-format-options.png" /> | <img width="420" alt="DRH - Asset Exchange Studio validation report" src="docs/media/screenshot-validation.png" /> |
+| <img height="420" alt="DRH - Export Formats and Presets" src="docs/media/ScreenShot_01.png" /> | <img height="420" alt="DRH - Export Sanity Checker and Reports" src="docs/media/ScreenShot_02.png" /> |
 
 </div>
+
+<details>
+
+  <summary><strong>More Screenshots...</strong></summary>
+
+<div align="center">
+
+| Import Formats and File Queue | HTML Export QA Report
+ |
+|---|---|
+| <img height="420" alt="Import Formats and File Queue" src="docs/media/ScreenShot_03.png" /> | <img height="420" alt="HTML Export QA Report" src="docs/media/ScreenShot_04.png" /> |
+
+</div>
+
 -->
 
 <!--
@@ -259,18 +274,16 @@ The formats below are grouped by workflow type to make import/export support eas
 
 ---
 
-## Key features
+### Key Features
 
-- Multi-format asset import and export workflow
-- Format selection for export delivery
-- Import filtering for supported formats
-- Pipeline presets for common delivery scenarios
-- Output directory and source directory workflows
-- Batch-oriented asset exchange preparation
-- Asset validation before transfer or delivery
-- Local file and path-based workflow support
-- Cleaner handoff for marketplaces, asset libraries, teams, and external tools
-- Production-friendly organization for repeated asset exchange tasks
+- Multi-format 3D import and export from one production panel
+- Pipeline presets for 3D print, ArchViz, Marketplace, Web, Unreal, Unity, and Godot delivery
+- Batch-oriented asset exchange for repeated handoff workflows
+- Validation tools to catch issues before transfer or delivery
+- Asset inspection and round-trip checking for safer conversions
+- Directory-based import workflow with format filtering and collection routing
+- Marketplace and asset-library preparation workflows
+- Broad format coverage with platform-aware runtime handling
 
 ---
 
@@ -279,85 +292,83 @@ The formats below are grouped by workflow type to make import/export support eas
 
 ## Full feature list
 
-### Multi-format exchange
+### Multi-Format Exchange
 
-- Work with multiple import and export formats from one dedicated panel
-- Separate import and export workflows for clearer asset handling
-- Use format-specific workflows depending on the target delivery or source files
-- Support production scenarios where assets move between Blender and external tools
-- Reduce the need to manually manage format handling across different menus
+- Unified import and export workflow
+- Format-aware exchange pipeline
+- Local file-based processing
+- Format-specific availability handling
 
-### Export workflow
+### Supported Formats
 
-- Choose an output directory for exported assets
-- Enable or disable export formats depending on delivery needs
-- Use pipeline presets for common export scenarios
-- Prepare assets for external tools, marketplaces, clients, or asset libraries
-- Help standardize outgoing asset delivery workflows
+| Content Creation & Exchange | Game Engine & Animation Pipelines | CAD, Design & Fabrication | Specialized Data Formats |
+|---|---|---|---|
+| - FBX | - PSK | - MAX | - OpenVDB |
+| - BLEND | - PSA | - STL | - SVG |
+| - OBJ | - BVH | - USD / USDZ | - VOX |
+| - glTF / GLB | - Alembic | - DXF | - OFF |
+| - DAE | - 3DS | - SKP | - XYZ |
+| - PLY | - X3D | - 3DM | - 3DXML |
+|  |  | - 3MF |  |
 
-### Import workflow
+### Export Workflow
 
-- Choose a source directory for incoming assets
-- Filter files by supported formats
-- Include subfolders when needed
-- Bring external assets into Blender workflows more consistently
-- Reduce manual setup when working with assets from different sources
+- Output directory selection
+- Enable or disable export formats
+- Active export format switching
+- Format-specific export option panels
+- Cleanup and transform handling
+- Path mode controls
 
-### Pipeline presets
+### Import Workflow
 
-- Use predefined pipeline presets for common asset delivery workflows
-- Apply format selections based on workflow needs
-- Support faster setup for repeated export configurations
-- Help standardize delivery preparation
-- Reduce the need to manually select the same formats repeatedly
+- Source directory selection
+- Refresh import file list
+- Toggle checked files
+- Clear file list
+- Import checked files
+- Native import fallback flow
+- Supported-format filtering
+- Include subfolders
+- Collection routing to current collection
+- Collection routing to scene collection
+- Collection routing per file
+- Collection routing to a custom collection
 
-### Asset validation
+### Pipeline Presets
 
-- Validate asset data before transfer, delivery, or packaging
-- Help detect issues before assets move to another workflow
-- Support quality checks for production-oriented asset handling
-- Reduce avoidable errors during asset exchange
-- Help users prepare more reliable asset deliveries
+- 3D Print preset
+- ArchViz Exchange preset
+- General Delivery preset
+- Godot preset
+- glTF Web preset
+- Marketplace preset
+- OBJ General preset
+- Unreal Engine preset
+- Unity preset
+- Auto-apply preset workflow
+- Sync sanity profile
+- Sync enabled formats
+- Sync import workflow
 
-### Asset inspection and preview
+### Validation & Inspection
 
-- Inspect asset-related data before or during exchange workflows
-- Preview asset exchange information when applicable
-- Help users review what is being imported, exported, validated, or processed
-- Support clearer decision-making before committing to asset transfer
-- Reduce uncertainty during format-based workflows
+- Asset inspection reports
+- Round-trip validation
+- Re-import check settings
+- Scene metrics review
+- Object metrics review
+- Material metrics review
+- Texture metrics review
+- Delivery-oriented sanity profiles
 
-### Batch-oriented workflows
+### Batch & Handoff
 
-- Support repeated import/export preparation tasks
-- Help reduce repetitive manual actions
-- Support workflows involving multiple assets or multiple delivery formats
-- Make recurring asset preparation steps more consistent
-- Support production-style asset organization and delivery
-
-### Local file handling
-
-- Support local file and path-based workflows
-- Help manage asset-related files more clearly
-- Support workflows that depend on local folders, project paths, and asset locations
-- Help reduce confusion around where asset data is stored or exported
-- Keep asset exchange work local inside the user’s Blender environment
-
-### Marketplace and asset library preparation
-
-- Help prepare assets for marketplace-style workflows
-- Support asset library organization
-- Assist users creating reusable assets, packs, or deliverables
-- Help improve consistency before assets are published, transferred, or archived
-- Support BlenderKit-style asset preparation workflows
-
-### Transparency
-
-- Source-based add-on
-- No obfuscation
-- No external services required
-- No account requirements
-- Local file access may be used for import, export, validation, asset transfer, reports, and path-based workflows
+- Batch export workflow
+- Repeated handoff preparation
+- Marketplace delivery preparation
+- Asset-library preparation
+- Client delivery cleanup workflow
 
 </details>
 
