@@ -143,6 +143,8 @@ Recommended size: 1280x720 or 960x540.
 
 </div>
 
+</details>
+  
 -->
 
 <!--
